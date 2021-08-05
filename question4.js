@@ -1,14 +1,4 @@
-function foo1()
-{
-return {
-bar: "hello"
-};
-}
-function foo2()
-{
-  
-  
- /*Surprisingly, these two functions will not return the same thing. Rather:
+/*Surprisingly, these two functions will not return the same thing. Rather:
 console.log("foo1 returns:");
 console.log(foo1());
 console.log("foo2 returns:");
